@@ -11,5 +11,13 @@ desktop.ini
 *.tmp
 *.log
 
-# Compiled/bundled artifacts (kept in archive/ for reference, not for deployment)
-archive/
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Env
+.env
+.env.local
+.gstack/
